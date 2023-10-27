@@ -27,6 +27,7 @@
 #include "kernel_profanity.hpp"
 #include "kernel_keccak.hpp"
 
+
 std::string readFile(const char *const szFilename)
 {
 	std::ifstream in(szFilename, std::ios::in | std::ios::binary);
